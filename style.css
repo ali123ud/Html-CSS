@@ -1,0 +1,185 @@
+/* Gör alla ändringar i denna fil. */
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1,5;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1,1;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 30px;
+    
+}
+
+a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+.brand {
+    margin-left: 60px;
+}
+
+.logo {
+    color: black;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.site-header {
+    position: relative;
+    height: 120px;
+    margin-top: -70px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+
+.menu {
+    float: right;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+.site-navigation {
+    margin-top: 100px;
+    width: 100%;
+    float: right;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+  }
+
+
+.hero {
+    background-image: url(../images/servering.jpg);
+    background-size: cover;
+    height: calc(100vh - 120px);
+    margin: 0px;
+    text-shadow: 0 3px 6px rgba(0,0,0,.16);
+    background-color: #2EE2CD;
+    background-blend-mode: darken;
+    color: white;
+}
+
+.hero-title {
+    margin-left: -20px;
+    margin-right: 800px;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+.hero-lead {
+    margin-left: -20px;
+    margin-right: 800px;
+    padding-left: 200px;
+    font-size: 20px;
+}
+
+.hero-form {
+    margin-left: -20px;
+    margin-right: 800px;
+    padding-left: 200px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.hero-form #phone {
+    border-color: #238E82;
+    background-color: white;
+    border-style: solid;
+}
+
+.hero-form input {
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: #238E82;
+}
+
+.submit {
+    border-radius: 20px;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between; /* gör mellanrum mellan objekten */
+    align-items: center; /* justera objekten till mitten i containern */
+    position: relative;
+}
+
+.service .container .image img{
+    height: 50vh;
+    float: left;
+    margin-top: 60px;
+}
+
+.about .container .image img{
+    height: 50vh;
+    float: right;
+    margin-top: 60px;
+}
+
+.service-image {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain;
+}
+
+.content{
+    height: 60vh;
+    padding-top: 60px;
+}
+
+.about{
+    background-color: rgba(46, 226, 205, .1);
+}
+
+.site-footer {
+    background-color: #238E82;
+    color: #fff;
+}
